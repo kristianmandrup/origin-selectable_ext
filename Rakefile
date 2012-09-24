@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "origin-selectable_ext"
   gem.homepage = "http://github.com/kristianmandrup/origin-selectable_ext"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Extensions to Mongoid Origin selectable in order to support more dynamic queries}
+  gem.description = %Q{Mongoid Origin query extensions for dynamic query generation}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile
