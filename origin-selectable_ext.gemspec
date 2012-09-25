@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "origin-selectable_ext"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
-  s.date = "2012-09-24"
+  s.date = "2012-09-25"
   s.description = "Mongoid Origin query extensions for dynamic query generation"
   s.email = "kmandrup@gmail.com"
   s.extra_rdoc_files = [
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/origin-selectable_ext.rb",
+    "origin-selectable_ext.gemspec",
     "spec/origin-selectable_ext_spec.rb",
     "spec/spec_helper.rb"
   ]
